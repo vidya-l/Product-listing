@@ -1,0 +1,27 @@
+  <div class="row">
+    <div class="col-md-12">
+      <div class="content product">
+        <div *ngIf="products.length === 0">
+          <p>No products found.</p>
+        </div>
+        <div class="row">
+          <div *ngFor="let product of products | slice:0:visibleProducts" class="col-md-4 mb-3">
+            <div class="card single-product">
+              <img [src]="product.image" alt="{{ product.product_name }}" class="card-img-top product-image">
+              <div class="card-body">
+                <h5 class="card-title">{{ product.product_name }}</h5>
+                <p class="card-text">{{ product.price | currency }}</p>
+                <p class="card-text"><strong>Stock Count:</strong> {{ product.stock_count }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div *ngIf="visibleProducts < products.length" class="text-center mt-4">
+      <button class="btn btn-primary" (click)="loadMore()">Load More</button>
+    </div>
+    
+    </div>
+  </div>
+

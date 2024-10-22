@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.logo .navbar-brand {
+    background: url(/assets/images/logo.png) no-repeat left center;
+    background-size: cover;
+    display: inline-block;
+    padding-right: 145px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 142px;
+    padding-left: 44px;
+    line-height: 60px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: start !important;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 20px;
+}
+
+.banner {
+    background: url(/assets/images/banner.png) no-repeat left center;
+    background-size: cover;
+    min-height: 500px;
+}
+.btn-blue{
+    background-image: url('/assets/images/button-bg.png') no-repeat left center;;
+}
+.grape .btn-blue {
+    background: url(/assets/images/button-bg.png) no-repeat left center !important;
+    padding: 18px 90px !important;
+    color: white;
+}
+.banner h1{
+    padding: 80px 85px 30px 250px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.product .product-image {
+    height: 250px; 
+    min-height: 250px; 
+    object-fit: cover;
+    width: 100%; 
+}
+.product .single-product {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px 1px 3px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2); /* Custom left, right, and bottom shadow */
+    border: none !important;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
+    padding: 0 !important;
+}
+
+.product .single-product img {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px 1px 3px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2); /* Custom left, right, and bottom shadow */
+    border: none !important;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
+    padding: 0 !important;
+}
+
+.product .card-title{
+    text-transform: uppercase;
+}
+footer .first-box{
+    background: url(/assets/images/footer.png) no-repeat left center;
+    background-size: cover !important;
+    padding: 75px 40px 5px 25px;
+    color: white;
+    
+}
+footer .first-box h5{
+    text-transform: uppercase;
+}
+footer .first-box p{
+    font-size: 13px;
+}
+.footer-bottom{
+    align-items: baseline;
+}
+
+.footer-bottom h5{
+    background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+
+.footer-bottom a{
+  color: #212121;
+  text-decoration: none;
+  }
+.social-icons ul{
+ display: flex;
+ flex-direction: row;
+ gap:20px;
+}
+
+.social-icons ul a{
+    background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.footer-bottom .col-md-3.links{
+    padding: 0 50px;
+}
